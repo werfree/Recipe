@@ -1,0 +1,9 @@
+<Card>
+          <CardItem>
+            <Image
+              source={{ uri: `${recipe.image}` }}
+              style={{ width: 200, height: 200 }}
+            />
+            <Text style={styles.recepiName}>{recipe.label}</Text>
+          </CardItem>
+        </Card>
